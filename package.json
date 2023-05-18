@@ -1,0 +1,22 @@
+{
+  "name": "image-convertor",
+  "version": "0.0.1",
+  "description": "Convert images from png, jpg, jpeg to webp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "vipul chauhan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "4.18.2",
+    "webp-converter": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
